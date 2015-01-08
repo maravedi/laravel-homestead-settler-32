@@ -175,3 +175,8 @@ sudo /etc/init.d/beanstalkd start
 # Write Bash Aliases
 
 cp /vagrant/aliases /home/vagrant/.bash_aliases
+
+# Install Sass and Compass
+
+sudo gems install sass
+sudo gems install compass
