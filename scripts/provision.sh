@@ -178,5 +178,6 @@ cp /vagrant/aliases /home/vagrant/.bash_aliases
 
 # Install Sass and Compass
 
-sudo gems install sass
-sudo gems install compass
+sudo apt-get install ruby-dev
+sudo gem install sass
+sudo gem install compass
